@@ -19,12 +19,18 @@
 
         <!-- Multiple Hotel selection -->
         <h1>Select your ideal Hotel</h1>
-        <select name="hotelSelection" id="">
-            <option value="signature lux">Signature Lux Hotel</option>
-            <option value="the table bay ">The Table Bay Hotel</option>
-            <option value="the tree house">The Tree House Boutique Hotel</option>
-            <option value="the grey hotel">The Grey Hotel</option>
+        <select name="hotelSelection" id="hotelSelection">
+		    <option>Select hotel</option>
+            <option value="signatureLux">Signature Lux Hotel</option>
+            <option value="tableBay">The Table Bay Hotel</option>
+            <option value="treeHouse">The Tree House Boutique Hotel</option>
+            <option value="greyHotel">The Grey Hotel</option>
         </select>
+
+        <div class='hotel-info'>
+            <div id='hotel-image' class='hotel-image'></div>
+            <div id='hotel-details' class='hotel-details'></div>
+        </div>
 
         <!-- user select date input -->
         <h2>Select your date:</h2>
@@ -36,5 +42,35 @@
     </form>
     <!-- End of form -->
     <!-- Php tags -->
+    <script type='text/javascript' >
+        	let hotels = {
+		signatureLux: {
+			name: 'Hotel One',
+			image: 'http://placehold.it/100x100'
+		},
+
+		tableBay: {
+			name: 'Hotel Two',
+			image: 'http://placehold.it/200x200'
+		},
+
+		treeHouse: {
+			name: 'Hotel Three',
+			image: 'http://placehold.it/300x300'
+		},
+
+		greyHotel: {
+			name: 'Hotel Four',
+			image: 'http://placehold.it/400x400'
+		}
+	};
+
+	let hotelSelection = document.getElementById('hotelSelection')
+	hotelSelection.addEventListener('change', function() {
+		let selectedHotel = hotels[hotelSelection.options[hotelSelection.selectedIndex].value];
+		document.getElementById('hotel-image').innerHTML = "<img src=" + selectedHotel.image + "/>";
+		document.getElementById('hotel-details').innerHTML = selectedHotel.name;
+	});
+    </script>
 </body>
 </html>
