@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
     <!-- title -->
     <title>Hotel Booking</title>
 </head>
@@ -45,22 +46,22 @@
     <script type='text/javascript' >
         	let hotels = {
 		signatureLux: {
-			name: 'Hotel One',
-			image: 'http://placehold.it/100x100'
+			name: 'Signature Lux Hotel',
+			image: 'http://placehold.it/400x400'
 		},
 
 		tableBay: {
-			name: 'Hotel Two',
-			image: 'http://placehold.it/200x200'
+			name: 'The Table Bay Hotel',
+			image: 'http://placehold.it/400x400'
 		},
 
 		treeHouse: {
-			name: 'Hotel Three',
-			image: 'http://placehold.it/300x300'
+			name: 'The Tree House Boutique Hotel',
+			image: 'http://placehold.it/400x400'
 		},
 
 		greyHotel: {
-			name: 'Hotel Four',
+			name: 'The Grey Hotelr',
 			image: 'http://placehold.it/400x400'
 		}
 	};
