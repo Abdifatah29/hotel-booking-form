@@ -1,3 +1,8 @@
+.hotel-info {
+  display: flex; }
 
+.hotel-image {
+  width: 50%;
+  font-size: 32px; }
 
 /*# sourceMappingURL=style.css.map */
