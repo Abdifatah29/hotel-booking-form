@@ -1,8 +1,13 @@
-.hotel-info {
-  display: flex; }
+/* body {
+    background-image: url('http://www.photobackgroundhd.com/wp-content/uploads/2018/10/Nature-Backgrounds-HD.jpg');
+    background-position: center;
+    background-size: cover;
+} */
 
-.hotel-image {
-  width: 50%;
-  font-size: 32px; }
-
-/*# sourceMappingURL=style.css.map */
+.banner{
+   display: flex;
+}
+.bookChecking,
+.formContent{
+    width: 50%;
+}
