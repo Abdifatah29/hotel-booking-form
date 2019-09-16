@@ -1,13 +1,93 @@
 /* body {
-    background-image: url('http://www.photobackgroundhd.com/wp-content/uploads/2018/10/Nature-Backgrounds-HD.jpg');
+    background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(7).jpg');
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 } */
+h1{
+    font-size: 42px !important;
+}
+/* landing page */
+ html,
+ body,
+ header,
+ .view {
+     height: 100%;
+ }
 
-.banner{
+ @media (max-width: 740px) {
+     html,
+     body,
+     header,
+     .view {
+         height: 100vh;
+     }
+ }
+
+ .top-nav-collapse {
+     background-color: #78909c !important;
+ }
+
+ .navbar:not(.top-nav-collapse) {
+     background: transparent !important;
+ }
+
+ @media (max-width: 991px) {
+     .navbar:not(.top-nav-collapse) {
+         background: #78909c !important;
+     }
+ }
+
+ h1 {
+     letter-spacing: 8px;
+ }
+
+ h5 {
+     letter-spacing: 3px;
+ }
+
+ .hr-light {
+     border-top: 3px solid #fff;
+     width: 80px;
+ }
+.landingInfo h1,
+.landingInfo h5,
+.landingInfo a{
+    color: #fff !important;
+}
+
+
+.banner,
+.hotel-info{
    display: flex;
+   justify-content: space-evenly;
 }
 .bookChecking,
-.formContent{
+.formContent,
+.selectedInfo,
+.hotel-image{
     width: 50%;
+}
+.formContent{
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+    border:1px solid black;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      }
+}
+.img-holder{
+    height: 250px;
+    width: 350px;
+    /* margin-top: 2em; */
+}
+.selectedInfo{
+    margin-left: 4em;
+}
+.view{
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/img%20%2848%29.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
