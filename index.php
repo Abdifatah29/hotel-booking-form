@@ -57,20 +57,21 @@
             
         if (!isset($_POST['comfirm'])) {
             //Echo out the results for user selections
-            echo '<form method="POST" class="bookCheckin">';
+            echo '<form style="color:"#f0f8f0" method="POST" class="bookCheckin">';
             echo '<input type="hidden" name="firstName" value=' . $firstName. '>'; 
             echo '<input type="hidden" name="lastName" value=' . $lastName. '>'; 
             echo '<input type="hidden" name="dateCheckedIn" value=' . $dateCheckedIn. '>'; 
             echo '<input type="hidden" name="dateCheckedOut" value=' . $dateCheckedOut. '>';
             echo '<input type="hidden" name="hotelSelection" value='. $hotelSelected. '>';
+            echo '<h2 class="text-center article__title">You almost Done!</h2>';
             echo '<p>Name: '. $firstName . '</P>';
-            echo "<p>Last Name: " . $lastName ."</br>"; 
+            echo "<p>Last Name: " . $lastName ."</p>"; 
             echo "<p>Hotel Selected: " . $hotelSelected .'</P>';
             echo "<p>Date Check In: ". $dateCheckedIn .'</P>'; 
             echo "<p>Date Check Out: ". $dateCheckedOut.'</P>'; 
             echo "<p>Number of Days: ". $days_between.'</P>'; 
             echo "<p>Total Price: ". $due_amount; 
-            echo '<input type="hidden" name="submit">';
+            echo '<input type="hidden" name="submit"> </br>';
             echo '<button type="submit"  class="btn btn-primary" name="comfirm">Comfirm</button>';
             echo '</form>';
             }
