@@ -1,11 +1,37 @@
-/* body {
-    background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(7).jpg');
+ body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRkbdKLUGFJz507BnHCupwGM0TCIJ2KGh2QcwUODyhFGXj5ymb');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-} */
+    // height: 100vh;
+ }
+//variable
+$color: #f0f8f0;
 
+//mixins
+@mixin formheadings {
+    h1{
+        font-family: 'Gayathri',sans-serif;
+        font-size: 32px;
+        padding: 10px 0;
+        color: $color;
+    }
+    h2{
+        font-family: 'Raleway',sans-serif;
+        font-size: 28px;
+        padding: 10px 0;
+        color: #f0f8f0;
+    }
+    .inputText{
+        width: 80%;
+        border: 0 0;
+        border: 1px solid 0;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid green;
+}
+}
 
 .banner,
 .hotel-info {
@@ -19,13 +45,24 @@
 .hotel-image {
     width: 50%;
 }
+.formContent{
+    @include formheadings();
+}
 
 .img-holder {
     height: 250px;
     width: 350px;
     /* margin-top: 2em; */
 }
+.hotel-image{
+    margin: 1em 0;
+}
 
 .selectedInfo {
     margin-left: 4em;
 }
+
+
+//imports
+//importing mixins for media query
+@import 'media.scss';
