@@ -1,0 +1,35 @@
+@media screen and (max-width: 480px) {
+  body {
+    margin: 0 auto; }
+
+  .banner {
+    display: block; }
+
+  .hotelContent {
+    margin-bottom: 1em; }
+
+  h1 {
+    font-size: 28px; }
+
+  .hotel-info {
+    display: block; }
+
+  .selectedInfo {
+    margin: 0; } }
+@media screen and (max-width: 768px) {
+  .hotel-info {
+    display: block; }
+
+  .bookChecking,
+  .formContent,
+  .selectedInfo,
+  .hotel-image {
+    width: 100%; }
+
+  .hotel-image {
+    margin: 1em 0; }
+
+  .selectedInfo {
+    margin: 0; } }
+
+/*# sourceMappingURL=media.css.map */

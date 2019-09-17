@@ -1,93 +1,82 @@
-/* body {
-    background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(7).jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-} */
-h1{
-    font-size: 42px !important;
-}
-/* landing page */
- html,
- body,
- header,
- .view {
-     height: 100%;
- }
-
- @media (max-width: 740px) {
-     html,
-     body,
-     header,
-     .view {
-         height: 100vh;
-     }
- }
-
- .top-nav-collapse {
-     background-color: #78909c !important;
- }
-
- .navbar:not(.top-nav-collapse) {
-     background: transparent !important;
- }
-
- @media (max-width: 991px) {
-     .navbar:not(.top-nav-collapse) {
-         background: #78909c !important;
-     }
- }
-
- h1 {
-     letter-spacing: 8px;
- }
-
- h5 {
-     letter-spacing: 3px;
- }
-
- .hr-light {
-     border-top: 3px solid #fff;
-     width: 80px;
- }
-.landingInfo h1,
-.landingInfo h5,
-.landingInfo a{
-    color: #fff !important;
-}
-
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRkbdKLUGFJz507BnHCupwGM0TCIJ2KGh2QcwUODyhFGXj5ymb");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .banner,
-.hotel-info{
-   display: flex;
-   justify-content: space-evenly;
-}
+.hotel-info {
+  display: flex;
+  justify-content: space-evenly; }
+
 .bookChecking,
 .formContent,
 .selectedInfo,
-.hotel-image{
-    width: 50%;
-}
-.formContent{
-    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
-    border:1px solid black;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-      }
-}
-.img-holder{
-    height: 250px;
-    width: 350px;
-    /* margin-top: 2em; */
-}
-.selectedInfo{
-    margin-left: 4em;
-}
-.view{
-    background-image: url('https://mdbootstrap.com/img/Photos/Others/img%20%2848%29.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
+.hotel-image {
+  width: 50%; }
+
+.formContent h1 {
+  font-family: 'Gayathri',sans-serif;
+  font-size: 32px;
+  padding: 10px 0;
+  color: #f0f8f0; }
+.formContent h2 {
+  font-family: 'Raleway',sans-serif;
+  font-size: 28px;
+  padding: 10px 0;
+  color: #f0f8f0; }
+.formContent .inputText {
+  width: 80%;
+  border: 0 0;
+  border: 1px solid 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid green; }
+
+.img-holder {
+  height: 250px;
+  width: 350px;
+  /* margin-top: 2em; */ }
+
+.hotel-image {
+  margin: 1em 0; }
+
+.selectedInfo {
+  margin-left: 4em; }
+
+@media screen and (max-width: 480px) {
+  body {
+    margin: 0 auto; }
+
+  .banner {
+    display: block; }
+
+  .hotelContent {
+    margin-bottom: 1em; }
+
+  h1 {
+    font-size: 28px; }
+
+  .hotel-info {
+    display: block; }
+
+  .selectedInfo {
+    margin: 0; } }
+@media screen and (max-width: 768px) {
+  .hotel-info {
+    display: block; }
+
+  .bookChecking,
+  .formContent,
+  .selectedInfo,
+  .hotel-image {
+    width: 100%; }
+
+  .hotel-image {
+    margin: 1em 0; }
+
+  .selectedInfo {
+    margin: 0; } }
+
+/*# sourceMappingURL=style.css.map */
