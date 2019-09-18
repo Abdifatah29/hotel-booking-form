@@ -15,7 +15,8 @@
     }
 
     //selected hotel img dropdown
-    .hotel-info{
+    .hotel-info,
+    .banner{
         display: block
     }
     .selectedInfo{
@@ -25,7 +26,8 @@
 
 //media query for tablet
 @media screen and (max-width: 768px) {
-    .hotel-info{
+    .hotel-info,
+    .banner{
         display: block;
     }
     .bookChecking,
@@ -37,7 +39,7 @@
     .hotel-image{
         margin: 1em 0;
     }
-      .selectedInfo {
-          margin: 0;
-      }
+    .selectedInfo {
+      margin: 0;
+  }
 }
