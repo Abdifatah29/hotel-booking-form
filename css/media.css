@@ -11,13 +11,15 @@
   h1 {
     font-size: 28px; }
 
-  .hotel-info {
+  .hotel-info,
+  .banner {
     display: block; }
 
   .selectedInfo {
     margin: 0; } }
 @media screen and (max-width: 768px) {
-  .hotel-info {
+  .hotel-info,
+  .banner {
     display: block; }
 
   .bookChecking,

@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRkbdKLUGFJz507BnHCupwGM0TCIJ2KGh2QcwUODyhFGXj5ymb");
+  background-image: url("https: //images.pexels.com/photos/60217/pexels-photo-60217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -45,6 +45,11 @@ body {
 .selectedInfo {
   margin-left: 4em; }
 
+.duplicate,
+.confirmText {
+  font-size: 18px;
+  font-family: sans-serif; }
+
 @media screen and (max-width: 480px) {
   body {
     margin: 0 auto; }
@@ -58,13 +63,15 @@ body {
   h1 {
     font-size: 28px; }
 
-  .hotel-info {
+  .hotel-info,
+  .banner {
     display: block; }
 
   .selectedInfo {
     margin: 0; } }
 @media screen and (max-width: 768px) {
-  .hotel-info {
+  .hotel-info,
+  .banner {
     display: block; }
 
   .bookChecking,
